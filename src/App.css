@@ -1,0 +1,24 @@
+body{
+  background-color: darkgray;
+  /* height: 100vh;
+  width: 100vw; */
+  background-size: cover;
+}
+.btn{
+  padding: 1em;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+}
+.photos{
+  height: 80%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
