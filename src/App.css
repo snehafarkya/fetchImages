@@ -5,7 +5,9 @@ body{
   background-size: cover;
 }
 .btn{
+  border-radius: 0.5em;
   padding: 1em;
+  cursor: pointer;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -15,10 +17,16 @@ body{
   color: white;
 }
 .photos{
-  height: 80%;
-  width: 70%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  gap: 4em;
   margin: auto;
+}
+.img{
+  border-radius: 0.5em;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.img:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }

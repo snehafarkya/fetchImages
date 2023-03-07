@@ -21,7 +21,8 @@ const [images,setImages] = useState([])
       <div className='photos'>
         {images.map((image)=>{
           return <>
-            <img src={image.urls.thumb} alt="" />
+            {/* <p>{image.user.name}</p> */}
+            <img src={image.urls.thumb} alt="" className='img'/>
           </>
         })}
       </div>
